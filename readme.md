@@ -1,5 +1,10 @@
 # urbit-pob
-### A python implementation of [urbit-ob](https://github.com/urbit/urbit-ob)
+
+A python implementation of [urbit-ob](https://github.com/urbit/urbit-ob)
+
+###
+
+Run `pip install urbitob`
 
 ### Module Use
 

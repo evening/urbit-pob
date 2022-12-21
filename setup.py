@@ -5,12 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="urbitob",
-    version="0.0.1",
+    version="0.0.2",
     author="~ranren-ranlen",
     description="A python implementation of urbit-ob",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
+    url = "https://github.com/evening/urbit-pob",
     classifiers=[
         "Programming Language :: Python :: 3",
     ],
