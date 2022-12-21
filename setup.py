@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="urbitob",
-    version="0.0.2",
+    version="0.0.3",
     author="~ranren-ranlen",
     description="A python implementation of urbit-ob",
     long_description=long_description,
