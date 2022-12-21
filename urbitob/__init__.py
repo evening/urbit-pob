@@ -12,4 +12,5 @@ from urbitob.co import (
     eq_patq,
     is_valid_patp,
     is_valid_patq,
+    is_valid_pat,
 )
