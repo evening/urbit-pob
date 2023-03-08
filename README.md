@@ -24,25 +24,21 @@ As well as:
 ### Example Usage
 
 ```py
->>> import urbitob
->>> urbitob.patp(314159)
-'~batdyr-topmun'
->>> urbitob.patp_to_num("~faster-pollen")
-2077885931
->>> urbitob.hex_to_patq("EFFACED")
-'~wisfes-batsed'
->>> urbitob.sein("~hashes-happen")
-'~hattug'
->>> urbitob.clan("~marzod")
+>>> import urbitob as ob
+>>> ob.patp(0)
+'~zod'
+>>> ob.patp_to_num('~nidsut-tomdun')
+15663360
+>>> ob.hex_to_patq('010203')
+'~doznec-binwes'
+>>> ob.patq_to_hex('~marned-wismul-nilsev-botnyt')
+'01ca0e51d20462f3'
+>>> ob.is_valid_patp('~marned-wismul-nilsev-botnyt')
+True
+>>> ob.clan('~marzod')
 'star'
-```
-
-You could use it to generate list of Planets from a given Star:
-```py
->>> v = urbitob.patq_to_hex("~sordem")
->>> planets = list(urbitob.hex_to_patp(hex(i)[2:]+v) for i in range(1,0xffff))
->>> planets[:10]
-['~rigteg-havtuc', '~lonnub-navhet', '~risheb-difryc', '~sigren-daldux', '~rammel-malmyl', '~rapmes-ralres', '~boswex-ravret', '~sapper-loclut', '~talmep-sibsug', '~dalbur-todser']
+>>> ob.sein('~marzod')
+'~zod'
 ```
 
 ### Testing
