@@ -29,7 +29,7 @@ As well as:
 '~zod'
 >>> ob.patp_to_num('~nidsut-tomdun')
 15663360
->>> ob.hex_to_patq(010203)
+>>> ob.hex_to_patq('010203')
 '~doznec-binwes'
 >>> ob.patq_to_hex('~marned-wismul-nilsev-botnyt')
 '01ca0e51d20462f3'
